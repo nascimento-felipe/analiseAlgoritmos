@@ -2,7 +2,7 @@
 
 ## O que é esse repositório?
 
-Esse repositório foi criado para armazenar algoritmos que são estudados durante minha disciplina de Análise de Algoritmos.
+Esse repositório foi criado para armazenar algoritmos que são estudados durante minha disciplina de Análise de Algoritmos. A ideia é também misturar alguns algoritmos com estruturas de dados, que inclusive estão em um outro repositório aqui no meu perfil.
 
 Sinta-se livre para estudar esses códigos :)
 
