@@ -25,6 +25,7 @@ Dê um passeio pelas pastas! :D
 * [Insertion Sort](./algoritmos/Insertion%20Sort/)
 * [Merge Sort](./algoritmos/Merge_Sort/)
 * [Fibonacci](./algoritmos/Fibonacci/)
+* [Torre de Hanoi](./algoritmos/TorreDeHanoi/)
 
 ## Observações gerais
 
