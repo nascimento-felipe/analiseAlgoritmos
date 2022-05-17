@@ -12,11 +12,13 @@ Meu foco inicial é nas linguagens C, C++, Python e Java. Conforme meus trabalho
 
 > OBS.: Na linguagem c++, não utilizei o "using namespace std" para ficar mais fácil para pessoas que não sabem c++ (eu agora, por exemplo) saberem quais funções são standard e saber como usar melhor esse namespace.
 
-Todos os códigos em C e C++ tem comentários detalhados do que está sendo feito. Os demais terão comenetários conforme eu tiver tempo, como já dito antes.
+Todos os códigos em C e C++ tem comentários detalhados do que está sendo feito. Os demais terão comentários conforme eu tiver tempo, como já dito antes.
 
 ## Separação de pastas
 
 Os algoritmos são separados por tipo, então caso queira procurar por um algoritmo de Merge Sort em Java, basta ir na pasta de "Merge Sort" e procurar pelo arquivo com a extensão ".java".
+
+Dentro das pastas existe uma outra chamada "__executaveis__". Nela estão todos os arquivos compilados de C e C++. Os demais, oriundos de linguagens interpretadas, podem ser encontrados dentro da pasta com o nome do algoritmo.
 
 ## Pastas
 
