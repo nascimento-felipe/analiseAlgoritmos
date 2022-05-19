@@ -11,11 +11,11 @@ int main() {
 
     int t = 0;
 
+    printf("Insertion Sort de outra forma - C\n\n");
     printf(" Entre com o tamanho do Array de Inteiros: ");
     scanf("%d", &t);
 
     int *array = (int*) malloc(t * sizeof(int));
-
     preencherArray(array, t); // insere números randômicos no array.
 
     printf("Ordenacao");
