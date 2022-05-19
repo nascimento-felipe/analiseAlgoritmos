@@ -28,7 +28,8 @@ Dê um passeio pelas pastas! :D
 * [Merge Sort](./algoritmos/Merge_Sort/)
 * [Fibonacci](./algoritmos/Fibonacci/)
 * [Torre de Hanoi](./algoritmos/TorreDeHanoi/)
-
+* [Busca Binária](./algoritmos/BuscaBinaria/)
+* [Máximo e Mínimo de um array](./algoritmos/MaxMin/)
 ## Observações gerais
 
 Não recomendo testar o fibonacci recursivo, pois ele tem complexidade 2^n, que é bem ruim - pense em procurar o número 100 da série: seria 2^100 ou 1,2676506×(10^30). Ao invés disso, utilize o iterativo que tem O(n), ou seja, aumenta em mesma medida que n aumenta - se procurássemos pelo mesmo número 100 da série, teríamos uma complexidade de 100.
