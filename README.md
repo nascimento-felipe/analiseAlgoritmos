@@ -4,6 +4,12 @@
 
 Esse repositório foi criado para armazenar algoritmos que são estudados durante minha disciplina de Análise de Algoritmos. A ideia é também misturar alguns algoritmos com estruturas de dados, que inclusive estão em um outro repositório aqui no meu perfil.
 
+Essa segunda parte vai demorar um pouco, pois vou poder juntar os dois de forma eficiente somente no primeiro semestre de 2023, onde estudarei esses
+assuntos de forma mais aprofundada.
+
+Os Algoritmos que estudei têm propósitos variados, indo de buscas em um array de números inteiros até procurar o valor X da sequência de Fibonacci; porém
+o conteúdo mais estudado durante toda a disciplina foram Algoritmos de Ordenação - só com números inteiros, por enquanto.
+
 Sinta-se livre para estudar esses códigos :)
 
 ## Principais linguagens
@@ -24,14 +30,40 @@ Dentro das pastas existe uma outra chamada "__executaveis__". Nela estão todos 
 
 Dê um passeio pelas pastas! :D
 
-* [Insertion Sort](./algoritmos/Insertion%20Sort/)
-* [Merge Sort](./algoritmos/Merge_Sort/)
-* [Fibonacci](./algoritmos/Fibonacci/)
-* [Torre de Hanoi](./algoritmos/TorreDeHanoi/)
-* [Busca Binária](./algoritmos/BuscaBinaria/)
-* [Máximo e Mínimo de um array](./algoritmos/MaxMin/)
+- Ordenação por Inserção:
+    * [Insertion Sort](./algoritmos/Ordenacao/Insercao/Insertion_Sort/)
+    * [Ordenação Binária](./algoritmos/Ordenacao/Insercao/Ordenacao_Binaria/)
+    * [Shell Sort](./algoritmos/Ordenacao/Insercao/Shell_Sort/)
+
+- Ordenação por Troca:
+    * [Bubble Sort](./algoritmos/Ordenacao/Troca/Bubble_Sort/)
+    * [Combo Sort](./algoritmos/Ordenacao/Troca/Combo_Sort/)
+    * [Quick Sort](./algoritmos/Ordenacao/Troca/Quick_Sort/)
+    * [Shake Sort](./algoritmos/Ordenacao/Troca/Shake_Sort/)
+
+- Ordenação por Seleção:
+    * [Selection Sort](./algoritmos/Ordenacao/Selecao/Selection_Sort/)
+    * [Heap Sort](./algoritmos/Ordenacao/Selecao/Heap_Sort/)
+
+- Outras lógicas de Ordenação:
+    * [Merge Sort](./algoritmos/Ordenacao/Merge_Sort/)
+    * [Radix Sort]()
+
+- Exemplo de Grafo:
+    * [Grafo](./algoritmos/Exemplo_Grafos/)
+
+- Exemplo de Programação Dinâmica:
+    * [Fibonacci Recursivo com Programação Dinâmica](./algoritmos/Programacao_Dinamica/)
+
+- Algoritmos com outros propósitos:
+    * [Fibonacci](./algoritmos/Propositos_Gerais/Fibonacci/)
+    * [Torre de Hanoi](./algoritmos/Propositos_Gerais/TorreDeHanoi/)
+    * [Busca Binária](./algoritmos/Propositos_Gerais/BuscaBinaria/)
+    * [Máximo e Mínimo de um array](./algoritmos/Propositos_Gerais/MaxMin/)
+
+[//]: # (colocar as pastas que faltaram - todos os das outras pastas.)
 ## Observações gerais
 
-Não recomendo testar o fibonacci recursivo, pois ele tem complexidade 2^n, que é bem ruim - pense em procurar o número 100 da série: seria 2^100 ou 1,2676506×(10^30). Ao invés disso, utilize o iterativo que tem O(n), ou seja, aumenta em mesma medida que n aumenta - se procurássemos pelo mesmo número 100 da série, teríamos uma complexidade de 100.
+Não recomendo testar o fibonacci recursivo (que não é o de programação dinâmica), pois ele tem complexidade 2^n, que é bem ruim - pense em procurar o número 100 da série: seria 2^100 ou 1,2676506×(10^30). Ao invés disso, utilize o iterativo que tem O(n), ou seja, aumenta em mesma medida que n aumenta - se procurássemos pelo mesmo número 100 da série, teríamos uma complexidade de 100.
 
 Porém, fique a vontade para testar e ver que realmente o retorno do programa é bem demorado, como era de se esperar.
