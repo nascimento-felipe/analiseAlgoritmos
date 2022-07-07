@@ -37,17 +37,18 @@ Dê um passeio pelas pastas! :D
 
 - Ordenação por Troca:
     * [Bubble Sort](./algoritmos/Ordenacao/Troca/Bubble_Sort/)
+    * [Bubble Sort Melhorado](./algoritmos/Ordenacao/Troca/Bubble_Sort_Melhorado/)
     * [Combo Sort](./algoritmos/Ordenacao/Troca/Combo_Sort/)
     * [Quick Sort](./algoritmos/Ordenacao/Troca/Quick_Sort/)
     * [Shake Sort](./algoritmos/Ordenacao/Troca/Shake_Sort/)
 
 - Ordenação por Seleção:
-    * [Selection Sort](./algoritmos/Ordenacao/Selecao/Selection_Sort/)
+    * [Select Sort](./algoritmos/Ordenacao/Selecao/Select_Sort/)
     * [Heap Sort](./algoritmos/Ordenacao/Selecao/Heap_Sort/)
 
 - Outras lógicas de Ordenação:
-    * [Merge Sort](./algoritmos/Ordenacao/Merge_Sort/)
-    * [Radix Sort]()
+    * [Merge Sort](./algoritmos/Ordenacao/Outras_Logicas/Merge_Sort/)
+    * [Radix Sort](./algoritmos/Ordenacao/Outras_Logicas/Radix_Sort/)
 
 - Exemplo de Grafo:
     * [Grafo](./algoritmos/Exemplo_Grafos/)
@@ -57,9 +58,10 @@ Dê um passeio pelas pastas! :D
 
 - Algoritmos com outros propósitos:
     * [Fibonacci](./algoritmos/Propositos_Gerais/Fibonacci/)
-    * [Torre de Hanoi](./algoritmos/Propositos_Gerais/TorreDeHanoi/)
-    * [Busca Binária](./algoritmos/Propositos_Gerais/BuscaBinaria/)
-    * [Máximo e Mínimo de um array](./algoritmos/Propositos_Gerais/MaxMin/)
+    * [Torre de Hanoi](./algoritmos/Propositos_Gerais/Torre_De_Hanoi/)
+    * [Busca Binária](./algoritmos/Propositos_Gerais/Busca_Binaria/)
+    * [Máximo e Mínimo de um array](./algoritmos/Propositos_Gerais/Max_Min/)
+    * [Outros...](./algoritmos/Propositos_Gerais/)
 
 [//]: # (colocar as pastas que faltaram - todos os das outras pastas.)
 ## Observações gerais
