@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 
 void heapSort(int *array, int tamanho);                     /// funçãoque ordena o array usando a lógica de Heap.
 void heap(int E, int D, int *array);                        /// função auxiliar que mantém a lógica de Heap.

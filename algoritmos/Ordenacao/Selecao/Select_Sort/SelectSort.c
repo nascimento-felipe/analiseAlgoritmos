@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 
 void selectSort(int *array, int tamanho);                   /// função que ordena o array usando a lógica do selectSort
 void gerarArray(int *array, int tamanho);                   /// função que gera um array de forma pseudoaleatória

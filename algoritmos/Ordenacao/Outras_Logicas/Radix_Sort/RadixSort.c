@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 
 void radixSort(int *array, int tamanho);                    /// função que ordena um array usando a lógica do raixSort.
 void gerarArray(int *array, int tamanho);                   /// função que gera um array de forma pseudoaleatória.
