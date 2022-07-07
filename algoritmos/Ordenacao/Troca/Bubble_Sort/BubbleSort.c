@@ -16,7 +16,9 @@ int main()
     printf(" 1) Bubble Sort\n");
 
     bubbleSort(array, tamanho);
-    imprimirArray(array, tamanho, " Vetor Ord.   [] = ");
+    imprimirArray(array, tamanho, "  Vetor Ord.   [] = ");
+
+    free(array);
 
     return 0;
 }
@@ -26,7 +28,7 @@ void bubbleSort(int *array, int tamanho) {
     int aux = 0, i = 0, j = 0;
 
 
-    imprimirArray(array, tamanho, " Vetor Desord.[] = ");
+    imprimirArray(array, tamanho, "  Vetor Desord.[] = ");
     for (j = tamanho-1; j >= 1; j--) {
         for (i = 0; i < j; i++) {
             if (array[i] > array[i+1]) {

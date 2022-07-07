@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 
 void quickSort(int *array, int inicio, int fim);
 void gerarArray(int *array, int tamanho);
@@ -15,8 +16,10 @@ int main() {
     printf(" 4) Quick Sort\n");
 
     imprimirArray(array, tamanho, " Vetor Desord.[] = ");
-    quickSort(array, 0, tamanho);
+    quickSort(array, 0, tamanho-1);
     imprimirArray(array, tamanho, " Vetor Ord.   [] = ");
+
+    free(array);
 
     return 0;
 }

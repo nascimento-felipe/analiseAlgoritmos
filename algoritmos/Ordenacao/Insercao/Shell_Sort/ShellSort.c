@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <math.h>
 #include <time.h>
 
 void shellSort(int *array, int tamanho, int Inc, int SegCorrente);
@@ -19,13 +18,15 @@ int main()
     int const Np = 2;
     int Inc;
     for (int i = Np; i >= 0; i--) {
-        Inc = (int)pow(2.0, i);
+        Inc = (int)(i*i);
         for (int SegCorrente = 0; SegCorrente < Inc; SegCorrente++) {
             shellSort(array, tamanho, Inc, SegCorrente);
         }
     }
 
-    imprimirArray(array, tamanho, " Vetor Ord.   [] = ", 0, 0);
+    imprimirArray(array, tamanho, "\n  Vetor Ord.   [] = ", 0, 0);
+
+    free(array);
 
     return 0;
 }
@@ -38,7 +39,7 @@ void shellSort(int *array, int tamanho, int Inc, int SegCorrente) {
         k = SegCorrente;
         j = i - Inc;
         chave = array[i];
-        imprimirArray(array, tamanho, " Vetor Desord.[] = ", chave, 1);
+        imprimirArray(array, tamanho, "  Vetor Desord.[] = ", chave, 1);
 
         while ((j>=SegCorrente) && (k == SegCorrente)) {
             if (chave < array[j]) {

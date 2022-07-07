@@ -19,6 +19,8 @@ int main()
     shakeSort(array, tamanho);
     imprimirArray(array, tamanho, " Vetor Ord.   [] = ");
 
+    free(array);
+
     return 0;
 }
 

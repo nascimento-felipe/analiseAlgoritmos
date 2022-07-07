@@ -18,6 +18,8 @@ int main() {
     insercaoBinaria(array, tamanho);
     imprimirArray(array, tamanho, " Vetor Ord.   [] = ", 0, 0);
 
+    free(array);
+
     return 0;
 
 }
