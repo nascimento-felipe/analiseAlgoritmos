@@ -189,16 +189,38 @@ Resumindo: É um limite inferior da função, ou seja, o menor valor que a funç
 
 No exemplo analisado, é possível dizer que o algoritmo tem $\Omega(n)$ ou $\Omega(log_2(n))$. A primeira afirmação é mais correta, pois está mais próxima do real crescimento do algoritmo.
 
-## Little Omega ($\omega$) e Little O (o)
+## Little Ômega ($\omega$) e Little O (o)
+
+Essas outras duas terminações dão "complementos" de suas versões maiores.
+
+Little Ômega representa um limite que é menor do que a função analisada. A diferença é que a função $c \cdot g(n)$ __deve__ ser menor que a função f(n).
+
+Little Ômega
+ - Explicação formal: Para qualquer constante positiva c, existe $n_0$ tal que $f(n) > c \cdot g(n)$ para todo $n \geq n_0$.
+
+ - Resumo: bem parecido com o Big Ômega, porém só é utilizado para descrever funções f(n) __maiores__ do que g(n); se for usada como igual, está incorreto.
+
+Little o
+ - Explicação formal: Para qualquer constante positiva c, existe $n_0$ tal que $f(n) < c \cdot g(n)$ para todo $n \geq n_0$.
+
+ - Resumo: igual o Big O, com a diferença que a função não pode ser igual ao limite superior.
+
+
+Uma última informação dentro dessa parte de análise de algoritmos é a questão de algoritmos eficientes/ótimos. Quando um algoritmo é chamado de _ótimo_, é porque seu pior caso tem a menos quantidade de instruções para aquele tipo de problema. Por exemplo: ordenação de números inteiros com base em comparações tem um limite mínimo de $O(n \cdot lg(n))$. Sendo assim, não há nenhum algoritmo de ordenação com comparações que seja mais eficiente que isso e não é possível que exista um mais eficiente com essa lógica.
+
+> Existem algoritmos de ordenação que têm menos instruções, chegando até a $O(n)$; porém não utilizam de comparações e sim de outras lógicas e de padrões matemáticos.
+
+Essas decisões ficam à seu critério, porém o mais importante de todas essas comparações é a experiência que vem junto com as comparações, tornando mais fácil para a pessoa programadora analisar um algoritmo sem precisar fazer a conta exata de instruções.
 
 ## Conclusão
+
+Com esse conhecimento, fica mais fácil comparar algoritmos e ver qual é melhor de ser utilizado em determinado caso. Pode ser que um algoritmo "A" seja melhor no pior caso, mas o caso médio dele é ruim; enquanto um outro algoritmo "B" tem um pior caso ruim, mas um caso médio ótimo.
 
 ## Continuação
 
 Aqui tem alguns vídeos, sites, livros e outras fontes de conteúdo que auxiliarão você à continuar/esclarecer o conhecimento dessa parte:
 
- -
- -
- -
- -
- -
+ - [Canal Carla Quem Disse - Notação assintótica (O)](https://www.youtube.com/watch?v=gjw7AaOs9P8&list=PLncEdvQ20-mgGanwuFczm-4IwIdIcIiha&index=6)
+ - [Canal Carla Quem Dissee - Notação assintótica (Ω e Θ)](https://www.youtube.com/watch?v=t0MhdT7Z-_U&list=PLncEdvQ20-mgGanwuFczm-4IwIdIcIiha&index=7)
+ - [Livro do Robert Sedwick sobre Análise de Algoritmos](https://sedgewick.io/courses/analysis-of-algorithms/)
+ - [Canal Prof. Breno Lisi Romano - Notação Assintótica e Crescimento de Funções](https://www.youtube.com/watch?v=GTy17REO3NA&list=PLJHZRQCx_Lz13Z_BMt6Ihr2PR4J2jfgDu&index=6)
