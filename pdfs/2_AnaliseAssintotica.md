@@ -16,9 +16,9 @@
    - [Caso Médio](#caso-médio)
    - [Conclusão da Análise](#conclusão-da-análise)
  - [Big O](#big-o)
- - [Big $\Theta$](#big-theta-theta)
- - [Big $\Omega$](#big-omega-omega)
- - [Little $\omega$ e Little o](#little-omega-omega-e-little-o-o)
+ - [Big Theta](#big-theta-theta)
+ - [Big Omega](#big-omega-omega)
+ - [Little omega e Little o](#little-omega-omega-e-little-o-o)
  - [Conclusão](#conclusão)
  - [Continuação](#continuação)
 
@@ -48,7 +48,7 @@ Para isso, alguns conceitos são usados para definir os limites que os algoritmo
 17 }
 ```
 
-O que essa função faz, em suma, é armazenar o valor de i a cada iteração do laço for, sendo que i terá valores de $\color{lightblue}{~0~}$ até $\color{lightblue}{~\textrm{o valor de entrada}}$.
+O que essa função faz, em suma, é armazenar o valor de i a cada iteração do laço for, sendo que i terá valores de $\color{lightblue}{0}$ até $\color{lightblue}{~\textrm{o valor de entrada}}$.
 
 Note que não é feita nenhuma verificação do valor da entrada, o que significa que o valor de entrada pode ser nulo ou até negativo. Isso será importante nos próximos tópicos.
 
